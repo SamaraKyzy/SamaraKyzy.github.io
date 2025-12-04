@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+display: contents;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+#logo {
+    height: 200px;
+    width: 200px;
+}
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+header li{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-right: 60px;
+    float: none;
+    color:grey;
+}
+footer {
+    position: static;
+}
+footer p{
+font-size: 18px;
+text-align: center;
+}
